@@ -45,4 +45,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
+gem 'forem', :github => "radar/forem", :branch => "rails4"
+gem 'kaminari', '0.15.1'
 
