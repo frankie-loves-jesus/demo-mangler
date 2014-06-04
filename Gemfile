@@ -44,7 +44,11 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'half-pipe', :github => "d-i/half-pipe"
+
 gem 'devise'
 gem 'forem', :github => "radar/forem", :branch => "rails4"
 gem 'kaminari', '0.15.1'
 
+
+gem "sass-css-importer", github: "joefiorini/sass-css-importer", branch: "load-paths"
